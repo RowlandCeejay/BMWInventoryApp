@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_margin"
+    android:descendantFocusability="blocksDescendants">
+
+    <!--  display field -->
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <!--Quantity Text display -->
+        <TextView
+            android:id="@+id/brandView"
+            tools:text="@string/list_message_brand"
+            style="@style/DisplayFieldStyle" />
+
+        <!--Quantity Text display -->
+        <TextView
+            android:id="@+id/modelView"
+            tools:text="@string/list_message_model"
+            style="@style/DisplayFieldStyle" />
+    </LinearLayout>
+
+    <!--  display field -->
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <!--Quantity Text display -->
+        <TextView
+            android:id="@+id/priceView"
+            tools:text="@string/list_message_price"
+            style="@style/DisplayFieldStyle" />
+
+        <!--Quantity Text display -->
+        <TextView
+            android:id="@+id/quantityView"
+            tools:text="@string/list_message_quantity"
+            style="@style/DisplayFieldStyle" />
+    </LinearLayout>
+
+    <!-- Purchase Button -->
+    <Button
+        android:id="@+id/purchase_button"
+        android:text="@string/list_message_Button"
+        style="@style/listButton"
+        android:focusable="false"/>
+</LinearLayout>

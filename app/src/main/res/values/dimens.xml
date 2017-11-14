@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margin around the floating action button in BMWMainActivity -->
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Common margin value used virtually throughout the app -->
+    <dimen name="activity_margin">10dp</dimen>
+
+    <!-- margin value used in the the editor -->
+    <dimen name="display_margin">5dp</dimen>
+
+    <!-- margin value used in the the editor -->
+    <dimen name="button_size">40dp</dimen>
+
+    <!-- margin value used in the the editor -->
+    <dimen name="list_button_margin">26dp</dimen>
+</resources>

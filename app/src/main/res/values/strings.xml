@@ -1,0 +1,187 @@
+<resources>
+    <string name="app_name">BMW-Inventory-App</string>
+
+    <!-- Label for overflow menu option that inserts fake pet data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_sample_data">Insert Sample Data</string>
+
+    <!-- Label for overflow menu option that deletes all pet data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Products</string>
+
+    <!-- Title for the activity to add a new pet [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_product">Add a Product</string>
+
+    <!-- Label for editor menu option to save pet and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for contact information in the editor [CHAR LIMIT=30] -->
+    <string name="category_contact">Contact Info</string>
+
+    <!-- Label for brand information in the editor [CHAR LIMIT=30] -->
+    <string name="category_brand">Brand Name</string>
+
+    <!-- Label for quantity information in the editor [CHAR LIMIT=30] -->
+    <string name="category_quantity">Quantity</string>
+
+    <!-- Label for transmission information in the editor [CHAR LIMIT=30] -->
+    <string name="category_transmission">Transmission</string>
+
+    <!-- Label for fuel information in the editor [CHAR LIMIT=30] -->
+    <string name="category_fuel">Fuel Type</string>
+
+    <!-- Label for price information in the editor [CHAR LIMIT=30] -->
+    <string name="category_price">Price</string>
+
+    <!-- Label for model information in the editor [CHAR LIMIT=30] -->
+    <string name="category_model">Model</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_client_name">Seller\'s Name</string>
+
+    <!-- Text hint for phone number field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_client_phone">Seller\'s Phone</string>
+
+    <!-- Text hint for email field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_client_email">Seller\'s Email</string>
+
+    <!-- Text hint for model field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_model">Model</string>
+
+    <!-- Text hint for price field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_quantity">Quantity</string>
+
+    <!-- Text hint for quantity field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_price">Price</string>
+
+    <!-- Text hint for brand name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_brand_name">Brand\'s name</string>
+
+    <!-- Text error message in the editor-->
+    <string name="error_blank_space">Blank spaces not allowed here</string>
+
+    <!-- Text error message in the editor-->
+    <string name="error_blank_image">Image is required here</string>
+
+    <!-- Text error message in the editor-->
+    <string name="quantity_error">No negative numbers allowed</string>
+
+    <!-- Label for dropdown menu option if the product's fuel is petrol[CHAR LIMIT=20] -->
+    <string name="fuel_petrol">Petrol</string>
+
+    <!-- Label for dropdown menu option if the product's fuel is diesel [CHAR LIMIT=20] -->
+    <string name="fuel_diesel">Diesel</string>
+
+    <!-- Label for dropdown menu option if the product's fuel is hybrid [CHAR LIMIT=20] -->
+    <string name="fuel_hybrid">hybrid</string>
+
+    <!-- Label for dropdown menu option if the product's transmission is automatic[CHAR LIMIT=30] -->
+    <string name="transmission_automatic">Automatic</string>
+
+    <!-- Label for dropdown menu option if the product's transmission is manual [CHAR LIMIT=20] -->
+    <string name="transmission_manual">Manual</string>
+
+    <!-- Label for dropdown menu option if the product's transmission is semi-auto [CHAR LIMIT=30] -->
+    <string name="transmission_semi_auto">Semi-Automatic</string>
+
+
+    <!-- Toast message in editor when new pet has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_product_successful">Product saved</string>
+
+    <!-- Title text for editorActivity to edit an existing pet [CHAR LIMIT=NONE] -->
+    <string name="editor_activity_title_edit_product">Edit Product</string>
+
+    <!-- Title text for editor Activity to add a new pet info[CHAR LIMIT=NONE] -->
+    <string name="editor_activity_title_add_product">Add a Product</string>
+
+    <!-- Toast message in editor when new pet has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_product_failed">Error with saving product</string>
+
+    <!-- Title text for the empty view, which describes the empty bmw image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">FASCINATING BRANDS – WITH A SHARED FOCUS ON THE CUSTOMER.</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a product [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Let\'s start by adding a product</string>
+
+    <!-- Toast message in editor when current pet was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_successful">Product updated</string>
+
+    <!-- Toast message in editor when current pet has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_failed">Error with updating pet</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current product [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current product was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_successful">Product deleted</string>
+
+    <!-- Toast message in editor when current product has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_failed">Error with deleting product</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current product [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this product?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current product [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current product [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Label for the product model if the model is unknown [CHAR LIMIT=20] -->
+    <string name="unknown_model">Unknown Model</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current product [CHAR LIMIT=NONE] -->
+    <string name="contact_detail_name">Contact name</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current product [CHAR LIMIT=20] -->
+    <string name="contact_detail_phone">Contact Phone</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current product [CHAR LIMIT=20] -->
+    <string name="contact_detail_email">Contact Email</string>
+
+    <!-- Error message  -->
+    <string name="brand_name_error">Brand name is required</string>
+
+    <!-- Error message  -->
+    <string name="price_error">Price is required</string>
+
+    <!-- Error message  -->
+    <string name="model_error">Model is required</string>
+
+    <!-- Error message  -->
+    <string name="image_error">Image is required</string>
+
+    <!-- Error message  -->
+    <string name="name_error">Customer\'s name is required</string>
+
+    <!-- Error message  -->
+    <string name="phone_error">Customer\'s phone number is required</string>
+
+    <!-- Error message  -->
+    <string name="email_error">Customer\'s email address is required</string>
+
+    <!-- ListView empty messages  -->
+    <string name="list_message_brand">Brand</string>
+
+    <!-- ListView empty messages  -->
+    <string name="list_message_model">Model</string>
+
+    <!-- ListView empty messages  -->
+    <string name="list_message_price">Price</string>
+
+    <!-- ListView empty messages  -->
+    <string name="list_message_quantity">Quantity</string>
+
+    <!-- ListView empty messages  -->
+    <string name="list_message_Button">Purchase</string>
+
+</resources>
+
+
